@@ -131,7 +131,6 @@ button:focus {
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
   }
-
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
@@ -493,7 +492,6 @@ button:focus {
   0% {
     left: -100%;
   }
-
   100% {
     left: 100%;
   }
@@ -514,7 +512,6 @@ button:focus {
   0% {
     transform: rotate(0deg);
   }
-
   10% {
     transform: rotate(14deg);
   }
@@ -538,7 +535,6 @@ button:focus {
   60% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(0deg);
   }
@@ -603,7 +599,6 @@ button:focus {
     font-weight: 500 !important;
     position: absolute !important;
   }
-
   .Typewriter__cursor {
     display: none !important;
   }

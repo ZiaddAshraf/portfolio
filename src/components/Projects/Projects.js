@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import cardWallpaper from "../../Assets/card wallpaper.jpg";
 import wearwayWallpaper from "../../Assets/wearway wallpaper.jpg";
+import cardWallpaper from "../../Assets/card wallpaper.jpg";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import auramac from "../../Assets/Projects/auramac.png";
 import buildpro from "../../Assets/Projects/buildpro.png";
@@ -79,7 +79,7 @@ function Projects() {
               isBlog={false}
               title="BuildPro Construction Company"
               description="A professional construction company website template featuring modern design, responsive layout, and clean UI. Built with HTML5, CSS3, and JavaScript. Perfect for construction businesses looking for a professional web presence."
-              ghLink="https://github.com/ZiAaddd1/BuildPro-Construction-Company-Website-Template"
+              ghLink="https://github.com/ZiaddAshraf/BuildPro-Construction-Company-Website-Template"
               demoLink="https://ziaaddd1.github.io/BuildPro-Construction-Company-Website-Template"
               technologies={["HTML5", "CSS3", "JavaScript", "Responsive Design"]}
             />
@@ -91,7 +91,7 @@ function Projects() {
               isBlog={false}
               title="Wadi Degla"
               description="A beautiful and responsive website featuring clean design and modern layout. Built with HTML, CSS, and JavaScript with focus on user experience and visual appeal. Includes interactive elements and smooth animations."
-              ghLink="https://github.com/ZiAaddd1/Wadi-degla"
+              ghLink="https://github.com/ZiaddAshraf/Wadi-degla"
               demoLink="https://ziaaddd1.github.io/Wadi-degla/"
               technologies={["HTML5", "CSS3", "JavaScript", "UI/UX"]}
             />
@@ -103,7 +103,7 @@ function Projects() {
               isBlog={false}
               title="Burger Bun"
               description="A mouth-watering restaurant website for a burger joint. Features appetizing design, menu showcase, and responsive layout. Built with HTML, CSS, and JavaScript to create an engaging user experience for food lovers."
-              ghLink="https://github.com/ZiAaddd1/Burger-Bun"
+              ghLink="https://github.com/ZiaddAshraf/Burger-Bun"
               demoLink="https://ziaaddd1.github.io/Burger-Bun/"
               technologies={["HTML5", "CSS3", "JavaScript", "Restaurant UI"]}
             />
