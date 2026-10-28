@@ -9,6 +9,8 @@ import auramac from "../../Assets/Projects/auramac.png";
 import buildpro from "../../Assets/Projects/buildpro.png";
 import wadidegla from "../../Assets/Projects/wadidegla.png";
 import burgerbun from "../../Assets/Projects/burgerbun.png";
+import daisydesigns from "../../Assets/Projects/daisydesigns.png";
+import volterra from "../../Assets/Projects/volterra.png";
 
 function Projects() {
   return (
@@ -22,6 +24,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={daisydesigns}
+              isBlog={false}
+              title="Daisy Designs"
+              description="A modern, responsive e-commerce platform for personalized children's gifts and custom merchandise. Built with Next.js 16, React 19, TypeScript, TailwindCSS, and Motion, featuring custom storybooks, reward cards, stickers, and full RTL Arabic support."
+              ghLink="https://github.com/ZiaddAshraf/Daisy-designs"
+              demoLink="https://daisy-designs-snowy.vercel.app/"
+              technologies={["Next.js", "React", "TypeScript", "TailwindCSS", "Motion", "E-commerce", "RTL"]}
+              featured={true}
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wearwayWallpaper}
@@ -44,6 +59,19 @@ function Projects() {
               ghLink="https://github.com/ZiaddAshraf/institution"
               demoLink="https://institution-gamma.vercel.app"
               technologies={["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "RTL", "SEO"]}
+              featured={true}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={volterra}
+              isBlog={false}
+              title="VOLTERRA"
+              description="A premium athletic e-commerce platform for high-performance compression shirts engineered for training, strength, and recovery. Built with Next.js 16, React 19, TypeScript, TailwindCSS, Radix UI, Stripe checkout, and Prisma ORM."
+              ghLink="https://github.com/ZiaddAshraf/VOLTERRA"
+              demoLink="https://volterra-26co.vercel.app/"
+              technologies={["Next.js", "React", "TypeScript", "TailwindCSS", "Stripe", "Prisma", "E-commerce"]}
               featured={true}
             />
           </Col>
